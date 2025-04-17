@@ -142,7 +142,7 @@ def update_metrics(_):
         height=300
     )
 
-    connection_health = random.choice(["✅ Good", "⚠️ Poor"])
+    connection_health = random.choice(["excellent", " Poor"])
     return battery, temp, altitude, imu_fig, gps_fig, connection_health
 
 if __name__ == '__main__':
